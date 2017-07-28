@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div> <input type="text" id="newwords" > </p> </div>
+<p id="nos"> </p>
+<h1> Hello </h1>
+<button type="button" onclick= "undo()"> Untranslate </button>
+
+
+<script>
+function undo(){
+var word2=document.getElementById("newwords").value;
+var text2="";
+var x=0;
+while (x < word2.length) {
+   if (word2.charAt(x)=='u' && word2.charAt(x+1)=='b') {
+     text2=text2+word2.charAt(x+2);
+     x=x+3;
+}
+   else {
+      text2=text2+word2.charAt(x);
+      x=x+1;
+   }
+}
+document.getElementById('nos').innerHTML=text2;
+}
+
+</script>
+</body>
+</html>

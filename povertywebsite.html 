@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Poverty
+</title>
+</head>
+
+<body>
+<p> ?</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head> <title> The Long Tiring Life </title>
+<style>
+body {background-color: powderblue;font-family:Garamond; background-image: url("sky.jpg") ; background-repeat:no-repeat; background-size: cover;}
+h1   {color: blue;font-family:Garamond;}
+p    {color: red;font-family:Garamond;}
+button {font-size: 24px; font-style: oblique; }
+</style>
+</head>
+  <body>
+    <center>
+  <h1 style="background-color:#95FFED"> Welcome to my page! </h1>
+  <table border=6>
+    <tr> <th>
+  <ul> Table of Context (Click!) </th> </tr> <tr> <th><li> <a href="#chapter1"> Favorite Animals </a> </th></tr> </li> <tr> <th> <li>  <a href="#chapter2"> Favorite Pokemon </a> </li> </th> </tr> </ul>
+</table>
+  <hr>
+  <h3> <center> <a href="GWC2.html" target="_blank"> ABOUT ME! (Click :)) </a> </center> </h3>
+  <hr>
+<a name="chapter1"></a>
+  <h4 style="background-color:#95FFED"> These are my favorite animals. (Click the pictures for more!) </h4>
+    <a href="http://www.boredpanda.com/cute-baby-animals/" target="_blank">  <img src="panda.jpg" style="width:304px;height:228px;"> </a>
+    <a href="http://www.boredpanda.com/cute-baby-animals/" target="_blank">  <img src="rabbit.jpg" style="width:304px;height:228px;"> </a>
+    <a href="http://www.boredpanda.com/cute-baby-animals/" target="_blank">  <img src="duck.jpg" style="width:304px;height:228px;"> </a>
+    <a href="http://www.boredpanda.com/cute-baby-animals/" target="_blank">  <img src="bird.jpg" style="width:304px;height:228px;"> </a>
+<hr> <marquee scrollamount="26  "> <p> hi! <img src="hotdog.gif" style="height: 170px;"> <img src="hotdog.gif" style="height: 170px;"> <img src="hotdog.gif" style="height: 170px;"> bye! </p></marquee>
+<a name="chapter2"></a>
+<h4 style="background-color:#95FFED"> These are my favorite <b> pokemon! </b> </h4>
+<img id="f1" src="feebas.png" style="width:204px;height:228px;">
+<img id= "m1" src="mudkip.png" style="width:304px;height:228px;">
+<img id= "t1" src="treecko.png" style="width:304px;height:228px;">
+<img id= "ma1" src="magikarp.png" style="width:304px;height:228px;">
+<hr>
+<button onclick="document.getElementById('f1').src='milotic.png'"> Evolution of Feebas</button>
+<button onclick="document.getElementById('m1').src='marshtomp.png'"> Evolution of Mudkip </button>
+<button onclick="document.getElementById('m1').src='swam.png'"> Evolution of Marshtomp </button>
+<button onclick="document.getElementById('t1').src='grov.png'"> Evolution of Treecko</button>
+<button onclick="document.getElementById('t1').src='spec.png'"> Evolution of Grovyle </button>
+<button onclick="document.getElementById('ma1').src='gya.png  '"> Evolution of Magickarp </button>
+<hr> <br>
+<table border='10'>
+<tr> <th>
+
+
+<script type="text/javascript">
+window.onload= function() {
+  alert("WHY ARE YOU HERE?" );
+}
+</script>
+
+<a href="GWC.html" style="font-size: 60px; "> Reset </a>
+</th>
+</tr>
+</table>
+</center>
+  </body>
+</html>
+<!--
+basic function:
+function toCelsius (f) { return (5/9) * (f-32);}
